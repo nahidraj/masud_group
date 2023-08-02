@@ -16,54 +16,54 @@
       height: 100% !important;
     }
   }
-}
 
-.contact-form {
-  padding: 60px 30px;
-  background-color: $white;
+  .contact-form {
+    padding: 60px 30px;
+    background-color: $white;
 
-  .heading {
-    margin-bottom: 40px;
+    .heading {
+      margin-bottom: 40px;
 
-    h5 {
-      margin-bottom: 10px;
-      @include font(16px, 600);
-      color: #9e9e9e;
+      h5 {
+        margin-bottom: 10px;
+        @include font(16px, 600);
+        color: #9e9e9e;
+      }
+
+      h3 {
+        @include font(26px, 700);
+      }
+      }
+
+    .form-control {
+      height: 50px;
+      border-radius: 0;
     }
 
-    h3 {
-      @include font(26px, 700);
+    .form-select {
+      height: 50px;
+      border-radius: 0;
     }
-  }
 
-  .form-control {
-    height: 50px;
-    border-radius: 0;
-  }
+    .form-textarea {
+      height: 160px;
+      resize: none;
+    }
 
-  .form-select {
-    height: 50px;
-    border-radius: 0;
-  }
+    button {
+      background-color: $themeColor;
+      @include font(16px, 500);
+      text-transform: uppercase;
+      padding: 14px 30px;
+      color: $white;
+      transition: all linear .2s;
+      border: 2px solid transparent;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 
-  .form-textarea {
-    height: 160px;
-    resize: none;
-  }
-
-  button {
-    background-color: $themeColor;
-    @include font(16px, 500);
-    text-transform: uppercase;
-    padding: 14px 30px;
-    color: $white;
-    transition: all linear .2s;
-    border: 2px solid transparent;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-
-    &:hover {
-      background-color: $black;
-      border-color: $themeColor;
+      &:hover {
+        background-color: $black;
+        border-color: $themeColor;
+      }
     }
   }
 }

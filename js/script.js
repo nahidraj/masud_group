@@ -7,7 +7,7 @@ $(function () {
     // Hide preloader and fade in content after a delay
     setTimeout(function () {
       preloader.fadeOut(500)
-    }, 1000); // Change the delay value as per your requirement
+    }, 0); // Change the delay value as per your requirement
 
   });
 
@@ -178,7 +178,7 @@ $(function () {
       AOS.init({
         once: false,
       });
-    }, 1200);
+    }, 0);
   });
 
   // AOS.init({
