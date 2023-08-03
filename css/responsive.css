@@ -414,7 +414,14 @@
     margin-bottom: 24px; }
 
   .contact-page .contact-body .contact-top {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .content-page .content-main h1 {
+    font-size: 30px; }
+
+  .content-page .mid-text h4 {
+    font-size: 24px;
+    line-height: 33px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   p {
     font-size: 14px;
@@ -610,7 +617,42 @@
     margin-bottom: 24px; }
 
   .contact-page .contact-body .contact-top {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .content-page .content-main h1 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding: 0 0;
+    padding-left: 0; }
+
+  .content-page .content-main h1::before {
+    display: none; }
+
+  .content-page .content-main .content-box .small-image {
+    float: unset;
+    margin-right: 0;
+    margin-bottom: 20px; }
+
+  .content-page .mid-text {
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0 !important;
+    padding: 14px !important; }
+
+  .content-page .mid-text i {
+    display: none; }
+
+  .content-page .mid-text h4 {
+    font-size: 18px;
+    line-height: 24px; }
+
+  .news-item .news-text .info {
+    padding: 20px; }
+
+  .news-item .news-text .info .title {
+    font-size: 18px; }
+
+  .news-item .news-text .info p {
+    margin-top: 7px; } }
 @media (max-width: 575.98px) {
   p {
     font-size: 14px;
@@ -831,6 +873,44 @@
     margin-bottom: 20px; }
 
   .contact-page .contact-body .contact-info .text h4 {
-    font-size: 15px; } }
+    font-size: 15px; }
+
+  .content-page .content-main {
+    padding: 20px; }
+
+  .content-page .content-main h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 0 0;
+    padding-left: 0; }
+
+  .content-page .content-main h1::before {
+    display: none; }
+
+  .content-page .content-main .content-box .small-image {
+    float: unset;
+    margin-right: 0;
+    margin-bottom: 20px; }
+
+  .content-page .mid-text {
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0 !important;
+    padding: 14px !important; }
+
+  .content-page .mid-text i {
+    display: none; }
+
+  .content-page .mid-text h4 {
+    font-size: 16px;
+    line-height: 24px; }
+
+  .news-item .news-text .info {
+    padding: 20px; }
+
+  .news-item .news-text .info .title {
+    font-size: 18px; }
+
+  .news-item .news-text .info p {
+    margin-top: 7px; } }
 
 /*# sourceMappingURL=responsive.css.map */
