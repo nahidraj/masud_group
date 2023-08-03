@@ -29,7 +29,9 @@ span {
   display: inline-block;
 }
 
-a {
+a,
+a:hover,
+a:focus {
   display: inline-block;
   text-decoration: none;
 }
