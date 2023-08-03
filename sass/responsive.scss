@@ -593,6 +593,16 @@
   }
 
   // bread crumb part end
+  // contact page start
+  .contact-page .contact-info {
+    margin-bottom: 24px;
+  }
+
+  .contact-page .contact-body .contact-top {
+    margin-bottom: 20px;
+  }
+
+  // contact page end
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
@@ -862,6 +872,16 @@
   }
 
   // bread crumb part end
+  // contact page start
+  .contact-page .contact-info {
+    margin-bottom: 24px;
+  }
+
+  .contact-page .contact-body .contact-top {
+    margin-bottom: 20px;
+  }
+
+  // contact page end
 }
 
 @media (max-width:575.98px) {
@@ -1110,6 +1130,7 @@
     font-size: 16px;
     padding: 12px 19px;
   }
+
   // contact form part end
   // footer part start
   footer .footer-bg .overlay {
@@ -1157,4 +1178,18 @@
   }
 
   // bread crumb part end
+  // contact page start
+  .contact-page .contact-info {
+    margin-bottom: 24px;
+  }
+
+  .contact-page .contact-body .contact-top {
+    margin-bottom: 20px;
+  }
+
+  .contact-page .contact-body .contact-info .text h4 {
+    font-size: 15px;
+  }
+
+  // contact page end
 }

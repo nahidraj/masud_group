@@ -71,6 +71,7 @@
       .details {
         p {
           margin-bottom: 20px;
+          text-align: justify;
         }
       }
 
@@ -80,6 +81,7 @@
         border-radius: 10px;
         border-left: 3px solid $black;
         position: relative;
+        text-align: justify;
 
         strong {
           text-transform: uppercase;
